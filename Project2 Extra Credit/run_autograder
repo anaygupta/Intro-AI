@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+cp -r /autograder/submission/multiAgents.py /autograder/source/code/multiAgents.py
+
+if [ -e /autograder/submission/search.py ]
+then
+    cp -r /autograder/submission/search.py /autograder/source/code/search.py
+fi
+
+if [ -e /autograder/submission/searchAgents.py ]
+then
+    cp -r /autograder/submission/searchAgents.py /autograder/source/code/searchAgents.py
+fi
+
+cd /autograder/source/code
+
+python3.6 autograder.py --no-graphics --gradescope-output

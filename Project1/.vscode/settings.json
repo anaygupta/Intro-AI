@@ -1,0 +1,7 @@
+{
+    "git.ignoreLimitWarning": true,
+    "editor.renderIndentGuides": false,
+    "python.linting.pylintEnabled": true,
+    "python.pythonPath": "/Users/anaygupta/anaconda3/envs/CSE471/bin/python",
+    "python.linting.enabled": true
+}
